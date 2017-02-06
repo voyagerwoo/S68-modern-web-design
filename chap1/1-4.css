@@ -1,0 +1,93 @@
+.boxA:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box2 {
+  float: left;
+  width: 70%;
+}
+
+.box3 {
+  float: left;
+  width: 30%;
+}
+
+.box5 {
+  float: left;
+  width: 50%;
+}
+
+.box6 {
+  float: left;
+  width: 25%;
+}
+
+.box7 {
+  float: left;
+  width: 25%;
+}
+
+/*칼럼 탈락 현상*/
+.box8 {
+  float: left;
+  width: 50%;
+}
+.box9 {
+  float: left;
+  width: 50%;
+}
+.box10 {
+  float: left;
+  /*width: 50%;*/
+  width : 100%;
+}
+
+/*칼럼 탁락 높이가 다를 때*/
+.box11 {
+  float: left;
+  width: 50%;
+  height: 280px;
+}
+.box12 {
+  float: left;
+  width: 50%;
+}
+.box13 {
+  float: left;
+  width: 50%;
+  /*해결책*/
+  /*width: 100%;*/
+  /*또는 형제(.boxA:after)에 clearfix*/
+}
+
+/*형제 박스 너비 고정 - 왼쪽 300px*/
+.box14 {
+  float: left;
+  width: 300px;
+}
+
+.box15 {
+  /*float:left;
+  width: calc(100%-300px); 안됨*/
+  float: none;
+  width: auto;
+  margin-left: 300px;
+}
+
+/*형제 박스 너비 고정 - 왼쪽 300px*/
+.box16 {
+  float: left;
+  width : 100%;
+  margin-right: -300px;
+  padding-right: 300px;
+  -moz-box-sizing: border-box;
+  -webkit-box-size: border-box;
+  box-sizing: border-box;
+}
+
+.box17 {
+  float: left;
+  width: 300px;
+}

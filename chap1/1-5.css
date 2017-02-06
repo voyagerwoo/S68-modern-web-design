@@ -1,0 +1,22 @@
+.boxA:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box1 {
+  float: left;
+  width: 25%;
+}
+.box2 {
+  float: right;
+  width: 25%;
+}
+.box3 {
+  float: left;
+  width: 25%;
+}
+.box4 {
+  float: right;
+  width: 25%;
+}
