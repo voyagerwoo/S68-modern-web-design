@@ -43,14 +43,32 @@
 #### 스타일의 시작
 - 우선 HTML은 CSS를 모른다
 - 스타일이 태그를 찾는 방법을 selector라고 함
-- CSS 는 스타일과 selector의 조합 -> rule
-- rule을 모아둔 것을 ruleset이라고 함
-- 여러가지 ruleset을 소유한 것을 sheet라고 함 -> style sheet
+- CSS 는 스타일과 selector의 조합 -> **rule**
+- rule을 모아둔 것을 **ruleset** 이라고 함
+- 여러가지 ruleset을 소유한 것을 sheet라고 함 -> **style sheet**
 - 기본적으로 html은 기본 시트를 가지고 있다
 - 기본 sheet를 덮어쓰고 가장 나중에 덮어쓴 것이 적용됨
 - 스타일의 공통적인 부분을 클래스로 만든다.
+- CSS는 기본적으로 부모 스타일 속성을 상속받는다. 이를 cascading 이라고 한다.
+- CSS는 그래서 **Cascading Style Sheet** 이다.
+- CSS는 긴 놈이 이긴다. 즉 더 구체적인 놈의 스타일이 적용된다. ex) .box2 < .boxA .box2
 
+#### display
+- **block** 은 (부모가 허용하는 한, 가능한 한) 가로 전체를 차지하는 것이다.
+- **inline** 은 앞에 있는 요소의 baseline 같은 baseline을 갖고 ...
+- 위 속성을 **display** 라고 한다.
+- W3C에서 태그의 display 속성을 정의했다.
 
+#### float
+- 대부분의 개발자가 CSS를 공부했다가 포기하는 진입장벽
+- 화면크기에 대응하는데 유용하다.
+- float는 말 그대로 떠 있는 것(layer 개념). 그럼 안 떠있는 것은?
+- 안 떠있는 것은 실체라고 하며, **Geometry 상에 공간을 점유** 하는 것
+- float은 block과 inline에 영향을 주는 것이 다르다. 그래서 어렵다.
+- **block 요소는 float 요소를 인식하지 못한다.**
+- **inline 은 float 요소를 가이드/가드로 인식한다.**
+- float라는 추상화된 시스템을 이해하고 제대로 사용하기 위해서는, 어떤 규칙으로 추상화를 구성했는지 이해해야 한다.
+- float 끼리는 번호표를 줘야한다. **float들 끼리의 관계는 인라인** 처럼 보인다.
 
 
 
