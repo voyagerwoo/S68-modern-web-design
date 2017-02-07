@@ -3,7 +3,7 @@
 /* 그리드 가이드 */
 
 [class^="box"],
-div:not([class])
+div:not([class]) 
 	{
 	border: solid 8px #faa;
 	color: #faa;
@@ -32,31 +32,45 @@ body > div:not([class]) {min-height: 200px}
 	}
 
 
-[class^="box"] > [class^="box"],
-div:not([class]) > div:not([class])
-	{
+/* BOX A를 테두리로 둘러싸지 않도록 설정 */
+.boxA	{border: none;
+	background: none;
+	line-height: normal;
+	text-align: left}
+
+
+
+/* 박스마다 색을 변경하는 설정 */
+.box1	{
+	border-color: #faa;
+	color: #faa;
+	background-color: #fee;
+	}
+
+.box2	{
 	border-color: #e0e03d;
 	color: #e0e03d;
 	background-color: #ffe;
 	}
 
 
-[class^="box"] > [class^="box"] > [class^="box"]	{
-	border-color: #aaf;
-	color: #aaf;
-	background-color: #eef;
+.box3	{
+	border-color: #65c4cf;
+	color: #65c4cf;
+	background-color: #b2eaf1;
 	}
 
-[class^="box"] > [class^="box"] > [class^="box"] > [class^="box"]	{
-	border-color: #afa;
-	color: #afa;
-	background-color: #efe;
+.box4	{
+	border-color: #82d99f;
+	color: #82d99f;
+	background-color: #c4f6d4;
+	}
+
+.boxB	{
+	border-color: #b236ab;
+	color: #b236ab;
+	background-color: #ffccfc;
 	}
 
 
 
-/* BOX A를 테두리로 둘러싸지 않도록 설정 */
-.boxA	{border: none;
-	background: none;
-	line-height: normal;
-	text-align: left}

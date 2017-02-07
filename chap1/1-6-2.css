@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+  .boxA:after {
+    content : "";
+    display : block;
+    clear: both;
+  }
+
+  .boxB {
+    float: left;
+    width : 80%;
+  }
+
+  .box4 {
+    float : left;
+    width : 20%;
+  }
+
+  .box2 {
+    float : right;
+    width : 75%;
+  }
+
+  .box3 {
+    float : left;
+    width: 25%;
+  }
+}
