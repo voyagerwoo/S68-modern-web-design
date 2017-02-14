@@ -1,4 +1,4 @@
-# CHAP 2
+# Lecture 2
 
 ## 목차
 1. Box Model
