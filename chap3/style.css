@@ -5,13 +5,15 @@ body {
 
 /* 사이트 이름 */
 .site h1 a {
-  color : #000000;
+  color : #831418;
   text-decoration: none;
 }
 
 .site h1 {
   margin: 0;
   font-size : 30px;
+  font-family: 'Paytone One', sans-serif;
+  font-weight: normal;
 }
 
 /* 네비게이션 */
@@ -59,6 +61,17 @@ body {
 .story img {
   max-width: 100%;
   height: auto;
+}
+
+.storyinfo {
+  margin-top: -10px;
+  margin-bottom: 20px
+}
+
+.storyinfo i {
+  margin-right: 5px;
+  color: #aaaaaa;
+  font-size: 20px;
 }
 
 /* 사이드 메뉴 */
@@ -129,6 +142,68 @@ body {
   padding-bottom : 15px;
 }
 
+/* ########## 599px 이하 ########## */
+@media (max-width: 599px) {
+  /* 네비게이션 */
+  .menu li a {
+    padding : 10px 3px;
+    font-size : 11px;
+  }
+
+  /* 사이트 이름과 기사의 제목 */
+  .site h1 {
+    font-size: 20px;
+  }
+
+  .story h1 {
+    font-size: 26px;
+  }
+
+  /* 박스 위아래 간격 */
+  .box1 {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .box3 {
+    padding-top: 25px;
+  }
+
+}
+
+/* ########## 599px 이상 ~ 767px 이하 ########## */
+@media (min-width: 600px) and (max-width: 767px) {
+  .box4:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .box4-1 {
+    float: left;
+    width: 50%;
+  }
+
+  .box4-2 {
+    float: right;
+    width: 50%;
+  }
+
+  .box4-1 {
+    padding-right: 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .box4-2 {
+    padding-left: 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+}
+
+/* ########## 768px 이상 ########## */
 @media (min-width: 768px) {
   .boxA:after {
     content: "";
@@ -152,5 +227,14 @@ body {
     box-sizing: border-box;
     -moz-box-sizing : border-box;
     -webkit-box-sizing : border-box;
+  }
+}
+
+/* ########## 1040px 이상 ########## */
+@media (min-width: 1040px) {
+  .box1, .box2, .boxA, .box5 {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
