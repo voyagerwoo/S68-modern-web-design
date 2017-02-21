@@ -53,6 +53,13 @@ body {
   font-size: 36px;
 }
 
+.story h2 {
+  margin-top: 40px;
+  padding-left: 10px;
+  border-left: solid 10px #7cbac1;
+  font-weight: normal;
+}
+
 .story p {
   margin-top: 0;
   margin-bottom: 20px;
@@ -74,8 +81,45 @@ body {
   font-size: 20px;
 }
 
+.story-cat {
+  margin-bottom: 25px;
+}
+
+.story-cat ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.story-cat li a {
+  display: block;
+  margin-right: 5px;
+  padding: 3px 5px;
+  border-radius: 2px;
+  background-color: #75dbe7;
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.story-cat li a:hover {
+  background-color: #94ecf6;
+}
+
+.story-cat ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.story-cat li {
+  float: left;
+  width: auto;
+}
+
 /* 사이드 메뉴 */
 .sidemenu ul {
+  margin-left: -40px; /*avoid webkit-padding-start 40px*/
   margin: 0;
   padding: 0;
   list-style: none;
@@ -101,12 +145,87 @@ body {
   font-size: 18px;
 }
 
+.sidemenu i {
+  margin-right: 5px;
+  color: #888888;
+}
+
 .special {
   margin-bottom: 30px;
 }
 
 .recommend {
   margin-bottom: 30px;
+}
+
+.recommend li a {
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.recommend li a:hover {
+  background-color: #eeeeee;
+  opacity: 0.8;
+}
+
+.recommend img {
+  width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: bottom;
+}
+
+.recommend .text {
+  padding: 5px 10px;
+  background-color: rgba(0,0,0,0.5);
+  color: #ffffff;
+}
+
+.recommend a {
+  position: relative;
+}
+
+.recommend .text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.popular li a {
+  border-bottom: dotted 1px #dddddd;
+  color: #2288bb;
+}
+
+.popular li a img {
+  border: none;
+}
+
+.popular a:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.popular img {
+  float: left;
+  width: 60px;
+}
+
+.popular .text {
+  float: none;
+  width: auto;
+  margin-left: 60px;
+  padding-left: 16px;
+}
+
+.popular span {
+  display: block;
+  color: #666666;
+  font-size: 12px;
 }
 
 /* 저작권 */
