@@ -37,3 +37,16 @@
 
 ## Relative Bridge
 - 보통의 화면은 normal flow로 나타나는데 특정 박스는 맘대로 배치하고 싶을 때 해당 영역의 position을 relative로 하고 자식들을 absolute로 하여 구성한다.
+
+
+## 숙제
+- width vs left, right
+
+
+# 책 내용
+- 2장은 컴포넌트를 준비하는 단계
+
+
+### 주석
+- absolute는 실체가 아니다.
+- 법칙 : 프로그램은 무조건 변경된다.
