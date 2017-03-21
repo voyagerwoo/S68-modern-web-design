@@ -1,4 +1,5 @@
 # Lecture 1
+https://www.youtube.com/watch?v=npWSLVnb1i4
 
 ## Graphics System
 - 시각적인 시스템 - 컴퓨터는 점으로 그래픽을 표현한다.

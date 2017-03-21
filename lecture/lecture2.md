@@ -1,4 +1,6 @@
 # Lecture 2
+https://www.youtube.com/watch?v=yxzElTNld58
+https://www.youtube.com/watch?v=Qa-7ug_UL2o
 
 ## 목차
 1. Box Model
