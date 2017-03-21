@@ -1,4 +1,6 @@
 # Lecture 3
+https://www.youtube.com/watch?v=8aOnf_ht2NY
+https://www.youtube.com/watch?v=y37Qlb7MRkc
 
 1. Media Type
 2. Display Area vs Device

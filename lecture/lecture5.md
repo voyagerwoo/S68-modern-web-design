@@ -1,4 +1,6 @@
 # 책 3장 실습하기
+https://www.youtube.com/watch?v=TTGtzDA25Ps
+https://www.youtube.com/watch?v=E1E8rm9P9KA
 
 - mobile first 로 작업
 - 처음에는 색깔있는 박스로 기본 레이아웃 구조를 만든다

@@ -1,3 +1,6 @@
+https://www.youtube.com/watch?v=4HDSNsw0sQ8
+https://www.youtube.com/watch?v=y_-Zs4_Iu8s
+
 # Position Model
 
 - 지난 시간에 배웠던 Normal Flow : https://developer.mozilla.org/ko/docs/Web/Guide/CSS/Visual_formatting_model
